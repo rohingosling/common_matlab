@@ -1,0 +1,21 @@
+function exhorstSolver
+
+    syms x0 y0;     % p0
+    syms x1 y1;     % p1
+    syms x2 y2;     % p2
+    syms a0 b0 c0;  % Coeficients of f(x)
+    syms a1 b1;     % Coeficients of g(x)
+    
+    y0 = a0*x0.^2 + b0*x0 + c0;
+    y1 = a0*x1.^2 + b0*x1 + c0;
+
+    solve...
+    (...
+        y0 = a0*x0.^2 + b0*x0 + c0,
+        y1 = a0*x1.^2 + b0*x1 + c0,
+        y0 = 2*a0*x0
+    );
+        
+end
+
+

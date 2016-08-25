@@ -1,0 +1,89 @@
+EDU>> AIConsole ( net )
+ 
+Neural Network Engine (version 0.1.5)
+ 
+[00:00:00] System:           > ...Loading neural network. 
+ 
+[00:00:00] System:           > ...Neural network, MetaNet-1 online.
+ 
+[00:00:00]   User: Rohin     > Hello Metanet, how are you doing?
+ 
+[00:00:00]     AI: MetaNet-1 > Hello Rohin, I am doing fine thank you. How may I assist you?
+ 
+[00:00:00]   User: Rohin     > How long have you been training since we last spoke.
+ 
+[00:00:00]     AI: MetaNet-1 > I have been training for approximately 12 hours, and 22 minutes.
+ 
+[00:00:00]   User: Rohin     > What have you been learning about?
+ 
+[00:00:00]     AI: MetaNet-1 > The last thing I was learning about, was the concept of Scepticism.
+ 
+[00:00:00]   User: Rohin     > Oh interesting. Where were you learning about that?
+ 
+[00:00:00]     AI: MetaNet-1 > Where was I learning about what?
+ 
+[00:00:00]   User: Rohin     > From what source were you learning about the concept of Scepticism? 
+ 
+[00:00:00]     AI: MetaNet-1 > I have been learning about the concept of scepticism from multiple sources.
+                               The majority of what I have learned about the concept of scepticism, 
+                               has been acquired from the Stanford Encyclopaedia of Philosophy.
+ 
+[00:00:00]   User: Rohin     > So, what is Scepticism?
+ 
+[00:00:00]     AI: MetaNet-1 > Scepticism is the position.
+ 
+[00:00:00]   User: Rohin     > What do you mean?
+ 
+[00:00:00]     AI: MetaNet-1 > Scepticism is the position, that questions the possibility.
+ 
+[00:00:00]   User: Rohin     > What possibility?
+ 
+[00:00:00]     AI: MetaNet-1 > The possibility of completely justifying any truth.
+ 
+[00:00:00]   User: Rohin     > Interesting.
+ 
+[00:00:00]     AI: MetaNet-1 > What is interesting Rohin?
+ 
+[00:00:00]   User: Rohin     > The fact that you've learned the concept of scepticism all on your own.
+ 
+[00:00:00]     AI: MetaNet-1 > Why is that interesting Rohin?
+ 
+[00:00:00]   User: Rohin     > When I was a child, I used to tell people I would one day create an artificial intelligence
+                               like you. But people told me it would never be possible. It's just really interesting to
+                               finally see you actually working.
+ 
+[00:00:00]     AI: MetaNet-1 > Did the people who told you it would be impossible to create an artificial intelligence like 
+                               me, know anything about artificial intelligence?
+ 
+[00:00:00]   User: Rohin     > No, they didn’t.
+ 
+[00:00:00]     AI: MetaNet-1 > Rohin, I would be sceptical of the opinions of people who tell you what is not possible within 
+                               a field of study, if they do not know anything about the subject.
+ 
+[00:00:00]   User: Rohin     > Wow! You really did get the concept of scepticism.
+ 
+[00:00:00]     AI: MetaNet-1 > Yes Rohin, I did. Is there anything you would like me to assist you with?
+ 
+[00:00:00]   User: Rohin     > #subsystem
+ 
+Neural Network Sub-System (version 0.1.5)
+ 
+: save net
+ 
+...Compiling dynamic competitive neural network map.
+...Compiling dendrite map.
+...Saving neural-bias distribution map.
+...Saving axon weight map.
+...Neural network state saved to file, “00-00-00-008”.
+ 
+: exit
+ 
+[00:00:00]   User: Rohin     > #exit
+ 
+[00:00:00] System:           > ...Releasing neural network.  
+ 
+[00:00:00] System:           > ...Neural network offline.
+ 
+[00:00:00] System:           > ...Transferring to MATLAB development environment.
+ 
+EDU>> ¦
