@@ -12,23 +12,23 @@ classdef ApplicationNumeraiSolution1
         
         % File management.
         
-        FILE_PATH_INPUT                = 'R:\Projects\MATLAB\common\numerai\solution_1\data\source\';
-        FILE_PATH_OUTPUT               = 'R:\Projects\MATLAB\common\numerai\solution_1\data\solution\';
+        FILE_PATH_INPUT                = 'R:\Projects\common_matlab\application\numerai\solution_1\data\source\';
+        FILE_PATH_OUTPUT               = 'R:\Projects\common_matlab\application\numerai\solution_1\data\solution\';
         FILE_NAME_TRAINING_DATA        = 'numerai_training_data.csv';                        
         FILE_NAME_APPLICATION_DATA     = 'numerai_tournament_data.csv'; 
         FILE_NAME_LIVE_DATA            = 'numerai_live_data.csv'; 
-        FILE_NAME_PREDICTIONS          = 'numerai_predictions.csv'; 
+        FILE_NAME_PREDICTIONS          = 'matlab_predictions.csv'; 
         
         % Data cluster configuration.
         
-        CLASSIFIER_DIMENTION_1 = 2;
-        CLASSIFIER_DIMENTION_2 = 2;
+        CLASSIFIER_DIMENTION_1 = 1;
+        CLASSIFIER_DIMENTION_2 = 1;
         CLASSIFIER_DIMENTION_3 = 1;
         
         % Neural network configuration.
         
         ANN_HIDDEN_UNITS                = 3;
-        ANN_MULTINET_NETWORK_COUNT      = 4;
+        ANN_MULTINET_NETWORK_COUNT      = 2;
         ANN_MULTINET_NETWORK_COUNT_BEST = 1;
         ANN_GLOBAL_BIAS                 = -0.002;
         
@@ -186,7 +186,7 @@ classdef ApplicationNumeraiSolution1
         function [ id, x ] = load_application_data ( this )
     
             file_path                  = this.FILE_PATH_INPUT;            
-            file_name_application_data = this.FILE_NAME_LIVE_DATA;
+            file_name_application_data = this.FILE_NAME_APPLICATION_DATA;
             file_name                  = strcat ( file_path, file_name_application_data );
             
             file_data = readtable ( file_name );
